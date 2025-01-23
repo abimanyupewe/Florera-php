@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang produk</title>
+
+    <link rel="stylesheet" href="../../output.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body class="font-poppins m-0">
+    <!-- hero section -->
+    <section class="w-full bg-green_gw">
+      <div class="relative">
+        <!-- Navigation -->
+        <!-- Header Start -->
+        <header
+          class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+        >
+          <div class="container mx-auto sm:px-16 md:px-8 lg:px-12">
+            <div class="flex items-center justify-between relative">
+              <!-- Element Kiri (Brand) -->
+              <div class="flex">
+                <img
+                  class="w-20 h-auto"
+                  src="../../assets/images/logo/logo.png"
+                  alt=""
+                />
+                <a href="#home" class="font-bold text-lg text-white block py-6">
+                  FLORERA
+                </a>
+              </div>
+              <!-- Element Kanan (Navigation) -->
+              <div class="flex items-center px-5">
+                <!-- Hamburger Menu for Mobile -->
+                <button
+                  id="hamburger"
+                  name="hamburger"
+                  type="button"
+                  class="block absolute right-4 lg:hidden"
+                >
+                  <span
+                    class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+                  ></span>
+                  <span
+                    class="hamburger-line transition duration-300 ease-in-out"
+                  ></span>
+                  <span
+                    class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+                  ></span>
+                </button>
+
+                <!-- Navbar for Larger Screens -->
+                <nav
+                  id="nav-menu"
+                  class="lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none hidden absolute py-5 shadow-lg bg-green_gw opacity-70 rounded-lg max-w-[250px] w-full right-4 top-full"
+                >
+                  <ul class="block lg:flex">
+                    <li class="group">
+                      <a
+                        href="../../../index.html"
+                        class="text-base font-normal text-white py-2 mx-8 flex group-hover:text-yellow_gw hover:underline"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="group">
+                      <a
+                        href="#shop"
+                        class="text-base font-normal text-white py-2 mx-8 flex group-hover:text-yellow_gw hover:underline"
+                        >Shop</a
+                      >
+                    </li>
+                    <li class="group">
+                      <a
+                        href="#course"
+                        class="text-base font-normal text-white py-2 mx-8 flex group-hover:text-yellow_gw hover:underline"
+                        >Course</a
+                      >
+                    </li>
+                    <li class="group">
+                      <a
+                        href="#testimonial"
+                        class="text-base font-normal text-white py-2 mx-8 flex group-hover:text-yellow_gw hover:underline"
+                        >Testimonial
+                      </a>
+                    </li>
+                    <li class="group">
+                      <a
+                        href="#about_us"
+                        class="text-base font-normal text-white py-2 mx-8 flex group-hover:text-yellow_gw hover:underline"
+                        >About Us</a
+                      >
+                    </li>
+                    <!-- Tambahkan Login ke daftar untuk Mobile -->
+                    <li class="group lg:hidden">
+                      <a
+                        href="#login"
+                        class="text-base font-normal text-white py-2 mx-8 flex group-hover:text-yellow_gw hover:underline"
+                        >Login</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- Tombol Login untuk desktop -->
+              <a
+                href="#login"
+                class="text-base font-semibold bg-green_pastel text-green_gw py-2 rounded-md ml-8 hover:text-white hover:bg-green_pastel hover:opacity-80 transition hidden px-10 lg:block"
+                >Login
+              </a>
+            </div>
+          </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Hero Section -->
+        <section
+          class="h-screen w-full flex items-center justify-center bg-cover bg-center padding"
+        >
+          <div class="flex flex-wrap">
+            <div
+              class="w-full pl-10 md:pl-20 pr-0 md:pr-32 lg:w-1/2 self-center space-y-4 mt-20 md:mt-0"
+            >
+              <p class="font-medium text-white">Florera</p>
+              <div class="w-auto">
+                <h1 class="text-xl md:text-5xl font-bold text-white">
+                  Dari <span class="text-yellow_gw">Alam</span>, Untuk
+                  <span class="text-yellow_gw">Alam</span>.
+                </h1>
+              </div>
+              <div class="w-80 md:w-96">
+                <p class="font-medium text-white">
+                  Tumbuhkan Tanaman Sehat dengan Pupuk Organik Berkualitas dari
+                  Bahan Terbaik untuk Lingkungan yang Lebih Baik
+                </p>
+              </div>
+              <div class="flex space-x-4">
+                <a
+                  href="#"
+                  class="text-base font-semibold bg-green_pastel py-3 px-10 rounded-md text-green_gw hover:shadow-lg hover:bg-green_pastel hover:text-white hover:opacity-80 transition duration-200 ease-in-out"
+                >
+                  Course
+                </a>
+                <a
+                  href="#"
+                  class="text-base font-semibold bg-green_pastel py-3 px-10 rounded-md text-green_gw hover:shadow-lg hover:bg-green_pastel hover:text-white hover:opacity-80 transition duration-200 ease-in-out"
+                >
+                  Shop
+                </a>
+              </div>
+            </div>
+
+            <div
+              class="items-center absolute z-20 bottom-[30px] left-1/2 transform w-auto bg-green_pastel rounded-lg shadow-md hover:shadow-lg sm:w-60 sm:p-6 md:flex md:bottom-[40px] md:w-auto md:space-x-10 md:px-10 p-4 px-5 hover:bg-green_pastel hover:opacity-90 text-green_gw hover:text-white"
+            >
+              <!-- Bagian Total Projects -->
+              <div class="text-center">
+                <h3 id="total-projects" class="md:text-xl text-lg font-bold">
+                  0
+                </h3>
+              </div>
+              <div class="text-center">
+                <p class="md:text-sm text-xs font-semibold">
+                  Pupuk organik <br />dihasilkan
+                </p>
+              </div>
+            </div>
+
+            <!-- Bagian kanan: Informasi Utama -->
+            <div class="w-full lg:w-1/2 self-center">
+              <div
+                class="mt-4 pl-10 relative lg:mt-9 lg:right-0 w-72 md:w-full sm:w-48"
+              >
+                <!-- Foto -->
+                <img
+                  src="../../assets/images/background/foto section.png"
+                  alt="Abimanyu Priyo Widagdo"
+                  class="ukuran-foto-hero-section mx-auto relative"
+                />
+              </div>
+            </div>
+        </section>
+      </div>
+    </section>
+    <!-- hero section end-->
+
+    <!-- about produk -->
+    <section
+      class="w-full max-w-4xl mx-auto p-8 flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8"
+    >
+      <!-- Image on the Left -->
+      <div class="w-full md:w-1/3">
+        <img
+          src="../../assets/images/brand/01.jpg"
+          alt="Produk Tanaman"
+          class="w-full h-96 rounded-lg shadow-lg object-cover"
+        />
+      </div>
+
+      <!-- Product Information -->
+      <div class="w-full md:w-2/3">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Tentang Produk</h2>
+
+        <!-- Keunggulan Section -->
+        <div class="mb-6">
+          <h3 class="text-xl font-semibold text-green-600 mb-2">
+            Keunggulan Produk:
+          </h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Mempercepat akar dan tunas baru.</li>
+            <li>Mempercepat pertumbuhan vegetatif dan generatif sekaligus.</li>
+            <li>Aman digunakan terhadap semua tanaman di semua musim.</li>
+            <li>Meningkatkan hasil panen secara alami dan aman.</li>
+            <li>
+              Mengandung nutrisi esensial yang membantu fotosintesis tanaman.
+            </li>
+            <li>Dapat dikombinasikan dengan pupuk makro atau mikro kimia.</li>
+          </ul>
+        </div>
+
+        <!-- Cara Pemakaian Section -->
+        <div>
+          <h3 class="text-xl font-semibold text-green-600 mb-2">
+            Cara Pemakaian:
+          </h3>
+          <ul class="list-decimal list-inside space-y-2 text-gray-700">
+            <li>Kocok terlebih dahulu sebelum digunakan.</li>
+            <li>Encerkan 25 ml per 1 liter air dan aduk hingga rata.</li>
+            <li>Semprotkan pada permukaan belakang daun dan batang tanaman.</li>
+            <li>
+              Waktu pengaplikasian terbaik adalah di pagi hari (07.00 - 10.00)
+              atau sore hari (16.00 - 18.00).
+            </li>
+            <li>
+              Simpan di tempat kering dan jauhkan dari jangkauan anak-anak.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- about produk end -->
+
+    <!-- script javascript -->
+    <script src="../../script/home.js"></script>
+</body>
+</html>
